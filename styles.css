@@ -162,9 +162,9 @@ footer {
     h1 {
         text-align: left;
     }
-    header {
-        justify-content: center;
-    }
+     ul{
+        text-align: center;
+     }
     #Gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -189,6 +189,9 @@ footer {
 @media screen and (min-width:1300px) {
     body {
         width: 1300px;
+    }
+    ul {
+        text-align: right;
     }
     #Gallery {
         display: grid;
